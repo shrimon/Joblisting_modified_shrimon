@@ -5,8 +5,8 @@
 
   --neutral-gray-cyan-one: hsl(180, 52%, 96%);
   --neutral-gray-cyan-two: hsl(180, 31%, 95%);
-  --neutral-dark-cyan: hsl(180, 8%, 52%);
-  --neutral-very-dark-cyan: hsl(180, 14%, 20%);
+  --neutral-dark-cyan: hsl(180, 29%, 50%);
+  --neutral-very-dark-cyan: hsl(180, 29%, 50%);
 }
 
 * {
@@ -28,6 +28,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  font-size: 15px;
 }
 
 /* Page Layout */
@@ -232,7 +233,7 @@ header {
 
 .bg-dark {
   color: #fff;
-  background-color: var(--neutral-very-dark-cyan);
+  background-color: black;
 }
 
 .card {
@@ -246,10 +247,10 @@ header {
 
 .card img {
   position: relative;
-  max-width: 65px;
+  max-width: 72px;
   width: 100%;
   height: auto;
-  top: -2rem;
+  top: -1.75rem;
 }
 
 /* footer */
@@ -287,7 +288,7 @@ header {
 
   .card img {
     position: static;
-    max-width: 75px;
+    max-width: 78px;
     height: auto;
     width: 100%;
     margin-right: 5rem;
