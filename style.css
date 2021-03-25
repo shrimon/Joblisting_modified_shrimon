@@ -246,10 +246,10 @@ header {
 
 .card img {
   position: relative;
-  max-width: 50px;
+  max-width: 65px;
   width: 100%;
   height: auto;
-  top: -1rem;
+  top: -2rem;
 }
 
 /* footer */
@@ -287,7 +287,7 @@ header {
 
   .card img {
     position: static;
-    max-width: 50px;
+    max-width: 75px;
     height: auto;
     width: 100%;
     margin-right: 5rem;
